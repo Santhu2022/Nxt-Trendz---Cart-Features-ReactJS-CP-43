@@ -47,7 +47,6 @@ const CartItem = props => (
                 type="button"
                 className="quantity-controller-button"
                 onClick={onClickIncreaseQuantity}
-                data-testid="plus"
               >
                 <BsPlusSquare color="#52606D" size={12} />
               </button>
